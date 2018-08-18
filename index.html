@@ -1,0 +1,27 @@
+<html>
+<head>
+    <link rel="stylesheet" href="cube.css">
+    <script src="cube.js"></script>
+</head>
+<body>
+
+<div id="controls">
+    <input type="text" value="DBEACF" maxlength=6 style="width:6em; text-align:center; font-weight:bold" onchange="setFaces(this.value)">
+    <input type="button" value="Spin 1080°" onclick="run(3*360, 2*360, 360)">
+    <input type="button" value="Spin -1080°" onclick="run(-3*360, -2*360, -360)">
+    <label><input type=checkbox onclick=setAutoRepeat(this.checked)> Auto-repeat</label>
+</div>
+
+<div id="progress"></div>
+
+<div id="cube">
+    <div class="face translucent backface" style="background-color: #a00">D</div>
+    <div class="face translucent backface" style="background-color: #0a0">B</div>
+    <div class="face translucent backface" style="background-color: #00a">E</div>
+    <div class="face translucent backface" style="background-color: #aa0">A</div>
+    <div class="face translucent backface" style="background-color: #a0a">C</div>
+    <div class="face translucent backface" style="background-color: #0aa">F</div>
+</div>
+
+</body>
+</html>
