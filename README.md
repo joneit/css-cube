@@ -5,7 +5,7 @@ _Version 1.0.0, June 13, 2017_
 
 A CSS-only cube should be a required exercise for all JavaScript coders.
 
-Here’s mine! ([**demo**](https://joneit.github.io/css-cube))
+Here’s mine! _Demo: [GitHub CDN](https://joneit.github.io/css-cube), [jsfiddle](https://jsfiddle.net/joneit/5fbLtjvj/embedded/result,js,css,html)_
 
 The cube is constructed from six one-sided divs, and animated using CSS [`transform`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) with a [`transition`](https://developer.mozilla.org/en-US/docs/Web/CSS/transition).
 
